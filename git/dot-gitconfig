@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Rolf Strijdhorst
+	email = r.strijdhorst@cohesion.nl
+[core]
+	editor = nvim
+[merge]
+	tool = "vimdiff"
+[mergetool]
+	keepBackup = false
+[mergetool "vimdiff"]
+	cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+[init]
+	defaultBranch = main
