@@ -1,0 +1,42 @@
+
+xmonad.hs:94:21: error:
+    Not in scope: type constructor or class `SWNConfig'
+   |
+94 | myShowWNameTheme :: SWNConfig
+   |                     ^^^^^^^^^
+
+xmonad.hs:96:9: error: Not in scope: `swn_font'
+   |
+96 |         swn_font      = "xft:Victor Mono:bold:size=60"
+   |         ^^^^^^^^
+
+xmonad.hs:97:11: error: Not in scope: `swn_fade'
+   |
+97 |         , swn_fade    = 1.0
+   |           ^^^^^^^^
+
+xmonad.hs:98:11: error: Not in scope: `swn_bgcolor'
+   |
+98 |         , swn_bgcolor = "#1c1f24"
+   |           ^^^^^^^^^^^
+
+xmonad.hs:99:11: error: Not in scope: `swn_color'
+   |
+99 |         , swn_color   = "#ffffff"
+   |           ^^^^^^^^^
+
+xmonad.hs:462:10: error:
+    Not in scope: `gs_cellwidht'
+    Perhaps you meant one of these:
+      `gs_cellwidth' (imported from XMonad.Actions.GridSelect),
+      `gs_cellheight' (imported from XMonad.Actions.GridSelect)
+    |
+462 |        , gs_cellwidht   = 200
+    |          ^^^^^^^^^^^^
+
+xmonad.hs:500:30: error:
+    A section must be enclosed in parentheses
+      thus: (`additionalKeysP` myKeys)
+    |
+500 |         keys               = `additionalKeysP` myKeys,
+    |                              ^^^^^^^^^^^^^^^^^^^^^^^^
