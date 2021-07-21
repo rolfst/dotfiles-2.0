@@ -1,0 +1,3 @@
+[submodule "nvcode"]
+	path = nvcode
+	url = git@github.com:rolfst/nvcode.git
